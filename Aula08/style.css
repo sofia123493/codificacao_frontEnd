@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=New+Amsterdam&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+.livro {
+    background-color: whitesmoke;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.um {
+    font-weight: inherit;
+
+}
+.dois {
+    font-weight: lighter;
+}
+.tres {
+    font-weight: 400;
+}
