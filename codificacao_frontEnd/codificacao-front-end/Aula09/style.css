@@ -1,0 +1,18 @@
+div{
+    background-color: blanchedalmond;
+}
+
+.um {
+    background-color: wheat;
+}
+
+.tres {
+    background-color: burlywood;
+}
+
+body {
+    height: 100vw;
+    width: 100vh;
+    background-image:url(Baby-Snoopy.jfif);
+    background-repeat: round;
+}

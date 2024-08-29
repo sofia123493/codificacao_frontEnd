@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+
+.cabeca {
+    background-color: antiquewhite;
+    white-space: normal;
+    text-align: center;
+    font-family: "Matemasie", sans-serif;
+
+}
+.sub1{
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+.sub2{
+    font-style: italic;
+    text-decoration: underline;
+    float: center;
+    
+}
+.sub3{
+    font-style: italic;
+    text-decoration: underline;
+    float: center;
+    background-color: antiquewhite;
+}
+body{
+    background-size: 100%;
+    
+}
+.sobre {
+    border-radius: 2px;
+    border-style: dashed;
+    height: auto;
+    width: 300px;
+    
+
+}
+.texto {
+    display: flex;
+    justify-content: right;
+    align-items: right ;
+    overflow: hidden;
+    
+}
