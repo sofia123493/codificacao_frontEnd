@@ -1,0 +1,102 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.alagoas{
+ display: flex;
+ height: 400px;
+}
+.alagoas-1{
+    width: 200px;
+    background-color: red;
+}
+.alagoas-2{
+    width: 200px;
+    background-color: aliceblue;
+    background-image: url("./brasao_de_armas_do_estado_de_alagoas.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.alagoas-3{
+    width: 200px;
+    background-color: blue;
+}
+
+.franca{
+    display: flex;
+    height: 400px;
+}
+.franca-1{
+    width: 200px;
+    background-color: blue;
+}
+
+.franca-2{
+    width: 200px;
+    background-color: azure;
+
+}
+.franca-3{
+    width: 200px;
+    background-color: red;
+}
+.italia{
+    display: flex;
+    height: 400px;
+}
+.italia-1{
+    width: 200px;
+    background-color: green
+}
+.italia-2{
+    width: 200px;
+    background-color:azure
+}
+.italia-3{
+    width: 200px;
+    background-color:red
+}
+.alemanha{
+   
+    flex-direction:column ;
+    width: 600px;
+  
+}
+.alemanha-1{
+    height:  150px;
+    background-color: black;
+}
+.alemanha-2{
+   height:  150px;
+    background-color: red
+}
+.alemanha-3{
+    height:  150px;
+    background-color: yellow
+}
+.argentina{
+    flex-direction:column ;
+    width: 600px;
+}
+
+.argentina-1{
+    height: 150px;
+    background-color: cornflowerblue
+}
+.argentina-2{
+    height: 150px;
+    background-image: url(./the-inca-sun-god-argentinian-flag-symbol-isolated-on-white-background-illustration-free-vector.jpg);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white
+    
+}
+.argentina-3{
+    height:150px;
+    background-color: cornflowerblue
+}
