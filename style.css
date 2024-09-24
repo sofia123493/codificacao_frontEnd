@@ -1,74 +1,341 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
-    font-family: "Poppins", sans-serif;
-    margin: 0%;
-}
-
-:root{
-    --Red: hsl(0, 78%, 62%);
-    --Cyan: hsl(180, 62%, 55%);
-    --Orange: hsl(34, 97%, 64%);
-    --Blue: hsl(212, 86%, 64%);
-    --Very-Dark-Blue: hsl(234, 12%, 34%);
-    --Grayish-Blue: hsl(229, 6%, 66%);
-   --Very-Light-Gray: hsl(0, 0%, 98%);
-}
-.titulo{
-    color: var(--Very-Dark-Blue);
-    font-weight: 200;
-    text-align: center;
-}
-.paragrafo{
-    font-size: 15px;
-    color: var(--Grayish-Blue);
-    text-align: center;
-}
-.card-supervisor{
-    display: inline-flex;
+body{
+    display: flex;
     flex-direction: column;
-    box-shadow: 10px 10px 43px 10px rgba(163,165,174,0.5);
-    border-radius: 5px;
-    padding: 30px;
-    border-top: 5px solid var(--Cyan);
-    position: relative;
-    left: 50px;
-    top: 200px;
+    align-items: center;
+}
+.alagoas{
+ display: flex;
+ height: 400px;
+}
+.alagoas-1{
+    width: 200px;
+    background-color: red;
+}
+.alagoas-2{
+    width: 200px;
+    background-color: aliceblue;
+    background-image: url("./brasao_de_armas_do_estado_de_alagoas.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.alagoas-3{
+    width: 200px;
+    background-color: blue;
 }
 
-.titulo-card{
-     color: var(--Very-Dark-Blue);
-     margin-bottom: 10px;
+.franca{
+    display: flex;
+    height: 400px;
 }
-.paragrafo-card{
-    color: var(--Grayish-Blue);
-    width: 350px;
-    margin-bottom: 50px;
+.franca-1{
+    width: 200px;
+    background-color: blue;
 }
-.icon-card{
-    width: 75px;
-    align-self: flex-end;
+
+.franca-2{
+    width: 200px;
+    background-color: azure;
+
 }
-.card-team{
-    display: inline-flex;
-    flex-direction: column;
-    box-shadow: 10px 10px 43px 10px rgba(163,165,174,0.5);
-    border-radius: 5px;
-    padding: 30px;
-    border-top: 5px solid var(--Red);
+.franca-3{
+    width: 200px;
+    background-color: red;
+}
+.italia{
+    display: flex;
+    height: 400px;
+}
+.italia-1{
+    width: 200px;
+    background-color: green
+}
+.italia-2{
+    width: 200px;
+    background-color:azure
+}
+.italia-3{
+    width: 200px;
+    background-color:red
+}
+.alemanha{
+   
+    flex-direction:column ;
+    width: 600px;
+  
+}
+.alemanha-1{
+    height:  150px;
+    background-color: black;
+}
+.alemanha-2{
+   height:  150px;
+    background-color: red
+}
+.alemanha-3{
+    height:  150px;
+    background-color: yellow
+}
+.argentina{
+    flex-direction:column ;
+    width: 600px;
+}
+
+.argentina-1{
+    height: 150px;
+    background-color: cornflowerblue
+}
+.argentina-2{
+    height: 150px;
+    background-image: url(./the-inca-sun-god-argentinian-flag-symbol-isolated-on-white-background-illustration-free-vector.jpg);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white
+    
+}
+.argentina-3{
+    height:150px;
+    background-color: cornflowerblue
+}
+.nigeria{
+    display: flex;
+    height: 400px;
+}
+.nigeria-1 {
+    width: 200px;
+    background-color: green
+}
+.nigeria-2 {
+    width: 200px;
+    background-color: whitesmoke
+}
+.nigeria-3 {
+    width: 200px;
+    background-color: green
+}
+.holanda{
+    flex-direction:column ;
+    width: 600px;
+}
+.holanda-1{
+    height: 150px;
+    background-color: red
+}
+.holanda-2{
+    height: 150px;
+    background-color:  whitesmoke
+}
+.holanda-3{
+    height: 150px;
+    background-color: blue
+}
+.austria{
+    flex-direction:column ;
+    width: 600px;  
+}
+.austria-1{
+    height: 150px;
+    background-color: red
+}
+.austria-2{
+    height: 150px;
+    background-color: whitesmoke
+}
+.austria-3{
+    height: 150px;
+    background-color: red
+}
+.suecia{
+    flex-direction:column ;
+    width: 600px; 
+}
+.suecia-1{
+    height: 150px;
+    background-color:rgb(0, 82, 147)
+}
+.suecia-2{
+    height: 95px;
+    background-color: yellow
+
+}
+.suecia-3{
+    height: 150px;
+    background-color: rgb(0, 82, 147)
+}
+.suecia-4{
+    flex-direction: row;
+    background-color: yellow;
+    width: 100px;
+    height: 400px;
+    display: flex;
+    margin-top: 0%;
+    margin-left: 68px;
+    position: relative; left: 20px; top: -397px;
+}
+.dinamarca{
+    flex-direction:column ;
+    width: 600px; 
+}
+.dinamarca-1{
+    height: 150px;
+    background-color: red
+}
+.dinamarca-2{
+    height: 95px;
+    background-color: whitesmoke
+}
+.dinamarca-3{
+    height: 150px;
+    background-color:  red
+}
+.dinamarca-4{ 
+flex-direction: row;
+    background-color: whitesmoke;
+    width: 100px;
+    height: 400px;
+    display: flex;
+    margin-top: 0%;
+    margin-left: 68px;
+    position: relative; left: 20px; top: -397px;
+}
+.noruega{
+    flex-direction:column ;
+    width: 600px; 
+}
+.noruega-1{
+    height: 150px;
+    background-color: red
+}
+.noruega-2{
+    height: 95px;
+    background-color: whitesmoke
+}
+.noruega-3{
+    height: 150px;
+    background-color:  red
+}
+.noruega-4{ 
+flex-direction: row;
+    background-color: whitesmoke;
+    width: 100px;
+    height: 400px;
+    display: flex;
+    margin-top: 0%;
+    margin-left: 68px;
+    position: relative; left: 20px; top: -397px;
+}
+.noruega-5{ 
+    flex-direction: row;
+    background-color: blue;
+    width: 80px;
+    height: 400px;
+    display: flex;
+    margin-top: 0%;
+    margin-left: 68px;
     position: relative;
-    left: 350px;
-    top: 100px;
+    left: 29px;
+    top: -796px;
+    transition: none;
+    cursor: move;
 }
-.card-karma{
-    display: inline-flex;
+.noruega-6{
+    height: 75px;
+    background-color: blue;
+    display: flex;
     flex-direction: column;
-    box-shadow: 10px 10px 43px 10px rgba(163,165,174,0.5);
-    border-radius: 5px;
-    padding: 30px;
-    border-top: 5px solid var(--Orange);
+    align-items: center;
+    left: 29px;
     position: relative;
-    left: 0px;
-    top: 400px;
+    left: 2px;
+    top: -1033px;
+    transition: none;
+    cursor: move;
+    width: 600px;
+}
+.finlandia{
+    flex-direction:column ;
+    width: 600px; 
+}
+.finlandia-1{
+    height: 150px;
+    background-color: whitesmoke;
+}
+.finlandia-2{
+    height: 95px;
+    background-color: whitesmoke
+}
+.finlandia-3{
+    height: 150px;
+    background-color:  whitesmoke;
+}
+.finlandia-4{ 
+flex-direction: row;
+    background-color: whitesmoke;
+    width: 100px;
+    height: 400px;
+    display: flex;
+    margin-top: 0%;
+    margin-left: 68px;
+    position: relative; left: 20px; top: -397px;
+}
+.finlandia-5{ 
+    flex-direction: row;
+    background-color: blue;
+    width: 80px;
+    height: 400px;
+    display: flex;
+    margin-top: 0%;
+    margin-left: 68px;
+    position: relative;
+    left: 29px;
+    top: -796px;
+    transition: none;
+    cursor: move;
+}
+.finlandia-6{
+    height: 75px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 29px;
+    position: relative;
+    left: 2px;
+    top: -1033px;
+    transition: none;
+    cursor: move;
+    width: 600px;
+}
+.japao{
+    display: flex;
+    height: 400px;
+    background-color: whitesmoke;
+    width: 600px;
+}
+.japao-1{
+   
+    background-color: red;
+    width: 196px;
+    height: 165px;
+    transform: translate(0px, -92px);
+    position: relative;
+    left: 207px;
+    top: 226px;
+    transition: none;
+    cursor: move;
+    border-radius: 2px;
+    border: red;
+    border-radius: 1900px;
+
+    width: 191px;
+    height: 201px;
+    transform: translate(0px, -128px);
+    position: relative;
+    left: 201px;
+    top: 254px;
+    transition: none;
+    cursor: move;
 }
